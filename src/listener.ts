@@ -1,8 +1,8 @@
 import { bodyParser$ } from '@marblejs/middleware-body';
 import { combineRoutes, httpListener } from '@marblejs/core';
 import { logger$ } from '@marblejs/middleware-logger';
-import { greet$ } from './route_effects/greet!@name';
-import { hello$ } from './route_effects/hello';
+import { greet$ } from './routes/greet!@name';
+import { hello$ } from './routes/hello';
 
 // run before every effect
 export const middlewares = [

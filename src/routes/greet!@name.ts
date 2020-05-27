@@ -2,7 +2,7 @@ import { r, use} from '@marblejs/core';
 import { t, requestValidator$ } from '@marblejs/middleware-io';
 import { map, tap } from 'rxjs/operators';
 import { logger } from '../utils/logger';
-import { max, min } from '../utils/types';
+import { max, min } from '../utils/io-ts-utils/string_length';
 
 export function getGreetingMessage(name: string) {
     return `Hi, ${name}`;
