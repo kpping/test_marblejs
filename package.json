@@ -1,0 +1,24 @@
+{
+  "name": "test_marblejs",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "node --inspect=5858 -r ts-node/register ./src/main.ts",
+    "start:watch": "nodemon"
+  },
+  "dependencies": {
+    "@ag1/return_switch": "^1.1.1",
+    "@marblejs/core": "^3.1.1",
+    "@marblejs/middleware-body": "^3.1.1",
+    "@marblejs/middleware-io": "^3.1.1",
+    "@marblejs/middleware-logger": "^3.1.1",
+    "fp-ts": "^2.5.4",
+    "rxjs": "^6.5.5",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.10.1",
+    "typescript": "^3.8.3"
+  }
+}
