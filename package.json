@@ -7,11 +7,13 @@
     "start:watch": "nodemon"
   },
   "dependencies": {
+    "@ag1/nil": "^1.1.1",
     "@ag1/return_switch": "^1.1.1",
     "@marblejs/core": "^3.1.1",
     "@marblejs/middleware-body": "^3.1.1",
     "@marblejs/middleware-io": "^3.1.1",
     "@marblejs/middleware-logger": "^3.1.1",
+    "chalk": "^4.0.0",
     "fp-ts": "^2.5.4",
     "rxjs": "^6.5.5",
     "winston": "^3.2.1"
