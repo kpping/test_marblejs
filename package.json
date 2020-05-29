@@ -4,22 +4,29 @@
   "license": "MIT",
   "scripts": {
     "start": "node --inspect=5858 -r ts-node/register ./src/main.ts",
-    "start:watch": "nodemon"
+    "start:watch": "nodemon",
+    "lint": "eslint --ext .ts --ignore-path .gitignore ./src"
   },
   "dependencies": {
-    "@ag1/nil": "^1.1.1",
     "@ag1/return_switch": "^1.1.1",
     "@marblejs/core": "^3.1.1",
     "@marblejs/middleware-body": "^3.1.1",
     "@marblejs/middleware-io": "^3.1.1",
     "@marblejs/middleware-logger": "^3.1.1",
-    "chalk": "^4.0.0",
     "fp-ts": "^2.5.4",
     "rxjs": "^6.5.5",
     "winston": "^3.2.1"
   },
   "devDependencies": {
+    "@types/node": "^12",
+    "@typescript-eslint/eslint-plugin": "^3.0.2",
+    "@typescript-eslint/parser": "^3.0.2",
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
     "nodemon": "^2.0.3",
+    "prettier": "^2.0.5",
     "ts-node": "^8.10.1",
     "typescript": "^3.8.3"
   }

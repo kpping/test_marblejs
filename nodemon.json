@@ -1,8 +1,7 @@
 {
     "ignore": [
-        "**/*.spec.ts",
         ".git",
-        "node_modules/**/node_modules"
+        "node_modules"
     ],
     "exec": "yarn start",
     "watch": [
